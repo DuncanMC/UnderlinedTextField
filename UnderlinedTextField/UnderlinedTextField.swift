@@ -12,7 +12,7 @@ import UIKit
 class UnderlinedTextField: UITextField {
 
     /// Change this color to change the color used for the underline
-    public var underlineColor = UIColor.blue {
+    public var underlineColor = UIColor(red: 0, green: 0, blue: 1, alpha: 1) {
         didSet {
             underlineLayer.backgroundColor = underlineColor.cgColor
         }
@@ -25,6 +25,7 @@ class UnderlinedTextField: UITextField {
         var frame = self.bounds
         frame.origin.y = frame.size.height - 1
         frame.size.height = 1
+        
 
         underlineLayer.frame = frame
         underlineLayer.backgroundColor = underlineColor.cgColor
