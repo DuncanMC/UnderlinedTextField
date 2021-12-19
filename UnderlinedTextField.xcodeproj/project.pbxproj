@@ -15,6 +15,7 @@
 		AEB5F486276E704500E16E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB5F484276E704500E16E0B /* LaunchScreen.storyboard */; };
 		AEB5F491276E704600E16E0B /* UnderlinedTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5F490276E704600E16E0B /* UnderlinedTextFieldTests.swift */; };
 		AEB5F49C276E704600E16E0B /* UnderlinedTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5F49B276E704600E16E0B /* UnderlinedTextFieldUITests.swift */; };
+		AEB5F4AD276E708A00E16E0B /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5F4AC276E708900E16E0B /* UnderlinedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AEB5F497276E704600E16E0B /* UnderlinedTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnderlinedTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB5F49B276E704600E16E0B /* UnderlinedTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextFieldUITests.swift; sourceTree = "<group>"; };
 		AEB5F49D276E704600E16E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB5F4AC276E708900E16E0B /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				AEB5F479276E704100E16E0B /* AppDelegate.swift */,
+				AEB5F4AC276E708900E16E0B /* UnderlinedTextField.swift */,
 				AEB5F47B276E704100E16E0B /* SceneDelegate.swift */,
 				AEB5F47D276E704100E16E0B /* ViewController.swift */,
 				AEB5F47F276E704200E16E0B /* Main.storyboard */,
@@ -261,6 +264,7 @@
 				AEB5F47E276E704100E16E0B /* ViewController.swift in Sources */,
 				AEB5F47A276E704100E16E0B /* AppDelegate.swift in Sources */,
 				AEB5F47C276E704100E16E0B /* SceneDelegate.swift in Sources */,
+				AEB5F4AD276E708A00E16E0B /* UnderlinedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
